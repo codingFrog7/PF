@@ -25,10 +25,12 @@ const page1 = () => {
             speed={0.5}
             scrambleChars={"@#$%"}>
             <samp className='text-sm'>
-              Hi!
-              i am Dipanshu(aka Deepu /CodingFrog7 ) <br/>
-              👋 Hey, I’m Deepu Kashyap (aka codingfrog7)🐸<br/>
-              🧠 Full-stack dev crafting 3D web experiences with<br/>
+              <h1>Hi! <br/><h1/>
+             <h4> i am Dipanshu(aka Deepu /CodingFrog7 ) <br/><h4/>
+              <h4>👋 Hey, I’m Deepu Kashyap (aka codingfrog7)🐸<br/><h4/>
+              <h4>  🧠 Full-stack dev crafting 3D web experiences with<br/><h4/>
+              <h4><h4/>
+             
               ⚛️ React • ⚡ Next.js • 🔧 NestJS • 🌐 Three.js
             </samp>
           </ScrambledText>
