@@ -2,8 +2,9 @@ import React from 'react'
 import Frog from './frog'
 import Hero from './hero'
 import Header from './header'
-import ScrambledText from './ScrambledText';
+
 import ClickSpark from './ClickSpark';
+import ShinyText from './ShinyText';
 const page1 = () => {
   return (
 
@@ -17,27 +18,22 @@ const page1 = () => {
       ><Header />
         <Frog />
         <Hero />
-        <div className='h-screen w-full absolute bottom-0 left-0'>
-          <ScrambledText
-            className="absolute flex item-center justify-center "
-            radius={100}
-            duration={1.2}
-            speed={0.5}
-            scrambleChars={"@#$%"}>
-            <samp className='text-sm'>
-              <h1>Hi! <br/><h1/>
-             <h4> i am Dipanshu(aka Deepu /CodingFrog7 ) <br/><h4/>
-              <h4>👋 Hey, I’m Deepu Kashyap (aka codingfrog7)🐸<br/><h4/>
-              <h4>  🧠 Full-stack dev crafting 3D web experiences with<br/><h4/>
-              <h4><h4/>
-             
-              ⚛️ React • ⚡ Next.js • 🔧 NestJS • 🌐 Three.js
-            </samp>
-          </ScrambledText>
-        </div>
+        <div className='h-screen w-full absolute bottom-0 left-0 '>
+        <div className='text-9xl'>
+          
+          <ShinyText text="Hi!" disabled={false} speed={3} className='custom-class' /><br/>
+          <ShinyText text="👋 Hey, I'm Dipanshu(aka Deepu /CodingFrog7 🐸) " disabled={false} speed={3} className='custom-class' /><br/>
+          <ShinyText text="🧠 Full-stack dev crafting 3D web experiences with!" disabled={false} speed={3} className='custom-class' /><br/>
+          <ShinyText text="⚛️ React • ⚡ Next.js • 🔧 NestJS • 🌐 Three.js " disabled={false} speed={3} className='custom-class' />
+          <br/>
+      </div>
+         </div>
       </ClickSpark>
     </>
   )
-}
-
+} 
 export default page1
+
+
+
+  
